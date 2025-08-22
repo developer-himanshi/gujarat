@@ -10,9 +10,9 @@ export default function PrivacyPolicy() {
       <h2 className="text-2xl font-semibold mt-6 mb-2">Introduction</h2>
       <p>
         This Privacy Policy outlines how MatchBest Software (hereafter referred to as
-        "we", "us", "our", or "Mohali Details") collects, uses, shares, and protects
+        "we", "us", "our", or "Gujarat Details") collects, uses, shares, and protects
         personal information of users ("you") who access our platform 
-        <a href="https://mohali-ai.vercel.app" className="text-blue-600 underline"> mohali-ai.vercel.app</a>, including the website, mobile applications,
+        <a href="https://Gujarat-ai.vercel.app" className="text-blue-600 underline"> Gujarat-ai.vercel.app</a>, including the website, mobile applications,
         and any related services (collectively referred to as the “Platform Gujarat.ai”).
       </p>
       <p>We are committed to respecting your privacy and adhering to applicable data protection laws.</p>
@@ -21,7 +21,7 @@ export default function PrivacyPolicy() {
       <ul className="list-disc pl-6">
         <li>Data collected via our website and business interactions.</li>
         <li>Use and sharing of information with business partners, service providers, and under legal obligations.</li>
-        <li>Practices that apply only to Mohali Details. This policy does not apply to third-party services or websites linked on our platform.</li>
+        <li>Practices that apply only to Gujarat Details. This policy does not apply to third-party services or websites linked on our platform.</li>
       </ul>
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">Information We Collect</h2>
@@ -34,7 +34,7 @@ export default function PrivacyPolicy() {
       <h2 className="text-2xl font-semibold mt-6 mb-2">How We Use Your Information</h2>
       <ul className="list-disc pl-6">
         <li>Respond to queries and provide requested services.</li>
-        <li>Display relevant local listings, events, and businesses in Mohali.</li>
+        <li>Display relevant local listings, events, and businesses in Gujarat.</li>
         <li>Improve platform usability, performance, and content personalization.</li>
         <li>Conduct research, analytics, and internal audits.</li>
       </ul>
@@ -92,7 +92,7 @@ export default function PrivacyPolicy() {
         <li>Website: <a href="https://Gujarat.ai" className="text-blue-600 underline">https://Gujarat.ai</a></li>
       </ul>
 
-      <p className="mt-6">Thank you for trusting Mohali Details. Your privacy is important to us, and we’re committed to keeping your personal data safe and secure.</p>
+      <p className="mt-6">Thank you for trusting Gujarat Details. Your privacy is important to us, and we’re committed to keeping your personal data safe and secure.</p>
     </div>
   );
 }
