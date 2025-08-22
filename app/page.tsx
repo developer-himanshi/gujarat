@@ -24,7 +24,7 @@ export default function HomePage() {
       <section className="bg-gradient-to-r from-primary/10 to-primary/5 py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Discover <span className="text-primary">Gujrat</span>
+            Discover <span className="text-primary">Gujarat</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Your comprehensive guide to businesses, tourism, and events in the beautiful city of Guujrat
@@ -43,7 +43,7 @@ export default function HomePage() {
       {/* Gallery Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Explore Gujrat in Pictures</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Explore Gujarat in Pictures</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {[
               "/gallery/a.jpg",
@@ -65,7 +65,7 @@ export default function HomePage() {
               >
                 <Image
                   src={src}
-                  alt={`gujrat Gallery Image ${index + 1}`}
+                  alt={`gujarat Gallery Image ${index + 1}`}
                   width={400}
                   height={300}
                   className="w-full h-64 object-cover"
