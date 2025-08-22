@@ -15,25 +15,12 @@ export default function Footer() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <MapPin className="h-6 w-6 text-primary" />
-                <span className="font-bold text-lg">Mohali.ai</span>
+                <span className="font-bold text-lg">Gujarat.ai</span>
               </div>
               <p className="text-muted-foreground text-sm mb-4">
-                Your comprehensive guide to everything Mohali has to offer.
+                Your comprehensive guide to everything Gujarat has to offer.
               </p>
-              <div className="flex space-x-3">
-                <Button variant="outline" size="icon">
-                  <Facebook className="h-4 w-4" />
-                </Button>
-                <Button variant="outline" size="icon">
-                  <Twitter className="h-4 w-4" />
-                </Button>
-                <Button variant="outline" size="icon">
-                  <Instagram className="h-4 w-4" />
-                </Button>
-                <Button variant="outline" size="icon">
-                  <Linkedin className="h-4 w-4" />
-                </Button>
-              </div>
+              
             </div>
 
             <div>
@@ -65,7 +52,7 @@ export default function Footer() {
            
                 <div className="flex items-center">
                   <Mail className="h-4 w-4 mr-2" />
-                  info@mohali.ai
+                  info@Gujarat.ai
                 </div>
                 
               </div>

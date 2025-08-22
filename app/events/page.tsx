@@ -62,14 +62,14 @@ export default function EventsPage() {
   if (events.length === 0) {
     return (
       <div className="container mx-auto px-4 py-12 text-center">
-        <h2 className="text-3xl font-semibold mb-4">Loading upcoming events in Mohali....</h2>
+        <h2 className="text-3xl font-semibold mb-4">Loading upcoming events in Gujarat....</h2>
       </div>
     );
   }
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-8 text-center">Upcoming Events in Mohali</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">Upcoming Events in Gujarat</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {events.map((event) => {
           const lat = event.lat;

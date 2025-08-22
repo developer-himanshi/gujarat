@@ -10,35 +10,19 @@ import { MapPin, Phone, Mail, Clock, Send } from "lucide-react"
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with Mohali Connect. We're here to help with your questions, feedback, and business inquiries.",
+    "Get in touch with Gujarat Connect. We're here to help with your questions, feedback, and business inquiries.",
 }
 
 export default function ContactPage() {
   const contactInfo = [
-    {
-      icon: Phone,
-      title: "Phone",
-      details: ["+91 172 123 4567", "+91 172 234 5678"],
-      description: "Mon-Fri 9AM-6PM",
-    },
+   
     {
       icon: Mail,
       title: "Email",
-      details: ["info@mohaliconnect.com", "support@mohaliconnect.com"],
+      details: ["info@Gujarat.ai", "support@Gujarat.ai"],
       description: "We'll respond within 24 hours",
     },
-    {
-      icon: MapPin,
-      title: "Address",
-      details: ["Phase 7, Mohali", "Punjab 160062, India"],
-      description: "Visit our office",
-    },
-    {
-      icon: Clock,
-      title: "Business Hours",
-      details: ["Monday - Friday: 9:00 AM - 6:00 PM", "Saturday: 10:00 AM - 4:00 PM"],
-      description: "Sunday: Closed",
-    },
+    
   ]
 
   return (

@@ -63,16 +63,15 @@ export default function AboutPage() {
       <Breadcrumb items={[{ label: "About Us" }]} />
 
       <div className="mb-12">
-        <h1 className="text-4xl font-bold mb-4">About Mohali Connect</h1>
+        <h1 className="text-4xl font-bold mb-4">About Gujarat Connect</h1>
         <p className="text-muted-foreground mb-4">
-          Mohali, officially called Sahibzada Ajit Singh Nagar, is a vibrant and fast-developing city located in Punjab, India. It forms part of the Tri-City area along with Chandigarh and Panchkula, making it a key urban center in North India.
+         Gujarat, located on the western coast of India, is a vibrant state known for its rich culture, dynamic economy, and historical significance. From the stunning landscapes of the Gir National Park to the architectural marvels of Somnath and the UNESCO World Heritage city of Ahmedabad, Gujarat offers a unique blend of heritage and modernity.
 
-Known for its planned infrastructure, IT hubs, and sports facilities, Mohali is home to major landmarks like the Punjab Cricket Association Stadium, Chandigarh International Airport, and several top educational institutions.
+Renowned as the land of legends like Mahatma Gandhi and Sardar Vallabhbhai Patel, Gujarat has played a vital role in shaping India’s history. Today, it stands as one of the fastest-growing states, attracting global attention with its industrial hubs, smart cities, and thriving tourism.
 
-The city also plays a vital role in Punjab's economic and technological growth, with numerous startups, tech companies, and industrial zones operating here. Despite its modern outlook, Mohali retains a rich cultural and historical identity rooted in Sikh heritage.
+The state is also famous for its colorful festivals such as Navratri, rich crafts, and delicious cuisine that reflect its deep-rooted traditions. Whether you are here for business opportunities, spiritual journeys, or leisure travel, Gujarat welcomes you with warmth and endless possibilities.
 
-Whether you're visiting for business, education, sports, or tourism, Mohali offers a perfect blend of urban convenience, green spaces, and Punjabi hospitality.
-        </p>
+Explore the unmatched charm of Gujarat — where culture, history, and innovation come together to create unforgettable experiences.</p>
       </div>
 
 
@@ -83,23 +82,21 @@ Whether you're visiting for business, education, sports, or tourism, Mohali offe
         <div className="grid md:grid-cols-2 gap-8">
           <Card>
             <CardHeader>
-              <CardTitle className="text-2xl">A Modern City with Heritage Roots</CardTitle>
+              <CardTitle className="text-2xl">Discover Gujarat’s Wonders</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-            Mohali, officially known as Sahibzada Ajit Singh Nagar, is one of Punjab’s fastest-growing cities. It is part of the Tri-City region along with Chandigarh and Panchkula. With its modern infrastructure, bustling IT sector, and world-class sports facilities, Mohali represents a perfect blend of urban development and cultural richness.
-              </p>
+           Experience the beauty of Gujarat, from the majestic Gir lions to the white sands of the Rann of Kutch. Explore ancient temples, vibrant festivals, and world-famous heritage sites that make Gujarat a traveler’s paradise. </p>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader>
-              <CardTitle className="text-2xl">Heart of Punjab's Future</CardTitle>
+              <CardTitle className="text-2xl">Business Hub of India</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Mohali is not just a satellite city — it's a hub of innovation, education, and sports. Home to the famous Punjab Cricket Stadium, international airport, and top universities, Mohali is paving the way for Punjab’s technological and economic transformation, all while preserving its Sikh legacy and Punjabi warmth.
-              </p>
+             Gujarat is one of India’s leading business destinations, offering unmatched opportunities in industries, trade, and innovation. Connect with local businesses, find new ventures, and be part of Gujarat’s growth story. </p>
             </CardContent>
           </Card>
         </div>
@@ -110,19 +107,17 @@ Whether you're visiting for business, education, sports, or tourism, Mohali offe
       <section className="mb-16">
         <Card>
           <CardHeader>
-            <CardTitle className="text-2xl">History </CardTitle>
+            <CardTitle className="text-2xl">History of Gujarat </CardTitle>
           </CardHeader>
           <CardContent className="prose max-w-none">
             <p className="text-muted-foreground mb-4">
-              Mohali, officially known as Sahibzada Ajit Singh Nagar, is a city in the Mohali district of Punjab, India, and a prominent part of the tri-city region alongside Chandigarh and Panchkula.
+             Gujarat’s history spans thousands of years, making it one of India’s most culturally and historically significant regions. It was home to the Indus Valley Civilization, with ancient sites like Lothal, one of the world’s earliest known dockyards. Over centuries, Gujarat became a hub for trade, attracting merchants from Africa, Arabia, and Europe, which shaped its rich cultural heritage.
 
-Originally a small village, Mohali began its transformation in 1975, when it was developed as an extension of Chandigarh to accommodate growing population and government offices. The city was named in honor of Sahibzada Ajit Singh, the eldest son of Guru Gobind Singh, reflecting its deep Sikh heritage.
+The state has witnessed the rise and fall of powerful dynasties such as the Mauryas, Guptas, and Chalukyas, leaving behind remarkable architectural treasures like the Sun Temple of Modhera and the stepwells of Patan. During the medieval era, Gujarat flourished as a center for commerce under the Sultanate and later the Mughals.
 
-In the early years, Mohali was largely an industrial and residential hub, but it has since grown into a modern IT and sports city, home to IT parks, cricket stadiums, universities, and planned urban sectors. The city is also known for the Punjab Cricket Association Stadium, which has hosted many international cricket matches.
+In modern history, Gujarat played a crucial role in India’s freedom struggle, being the birthplace of Mahatma Gandhi and Sardar Vallabhbhai Patel, two iconic leaders who shaped the nation’s destiny.
 
-Today, Mohali is one of the fastest-growing cities in North India, offering a mix of tradition and modernity, and serving as a gateway to innovation, business, and tourism in Punjab.
-
-
+Today, Gujarat stands as a blend of ancient heritage and modern progress, preserving its glorious past while embracing innovation and development.
             </p>
           </CardContent>
         </Card>
@@ -142,7 +137,7 @@ Today, Mohali is one of the fastest-growing cities in North India, offering a mi
             Contact Us
           </a>
           <a
-            href="/list-business"
+            href="/businesses"
             className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2"
           >
             List Your Business

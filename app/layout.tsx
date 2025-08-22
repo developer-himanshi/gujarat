@@ -9,12 +9,12 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "Mohali Connect - Your Local Gateway",
-    template: "%s | Mohali Connect",
+    default: "Gujarat Connect - Your Local Gateway",
+    template: "%s | Gujarat Connect",
   },
   description:
-    "Discover businesses, tourism, real estate, services, and events in Mohali. Your comprehensive local platform.",
-  keywords: ["Mohali", "business directory", "tourism", "events"],
+    "Discover businesses, tourism, real estate, services, and events in Gujarat. Your comprehensive local platform.",
+  keywords: ["Gujarat", "business directory", "tourism", "events"],
     generator: 'v0.dev'
 }
 

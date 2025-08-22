@@ -30,7 +30,7 @@ interface TourismClientPageProps {
 const travelTips = [
   {
     title: "Best Time to Visit",
-    description: "Mohali is best visited during the months of October to March.",
+    description: "Gujarat is best visited during the months of October to March.",
     icon: Clock,
   },
   {
@@ -69,23 +69,23 @@ export default function TourismClientPage({ initialAttractions }: TourismClientP
       <Breadcrumb items={[{ label: "Tourism & Attractions" }]} />
 
       <div className="mb-8">
-        <h1 className="text-4xl font-bold mb-4">Explore Mohali</h1>
+        <h1 className="text-4xl font-bold mb-4">Explore Gujarat</h1>
         <p className="text-muted-foreground text-lg">
-          Discover the rich culture, history, and attractions that make Mohali special
+          Discover the rich culture, history, and attractions that make Gujarat special
         </p>
       </div>
 
       {/* Hero Section */}
       <div className="relative h-64 md:h-96 rounded-lg overflow-hidden mb-12">
         <Image
-          src="/placeholder.svg?height=400&width=1200&text=Mohali+Tourism+Hero"
-          alt="Mohali Tourism"
+          src="/placeholder.svg?height=400&width=1200&text=Gujarat+Tourism+Hero"
+          alt="Gujarat Tourism"
           fill
           className="object-cover"
         />
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
           <div className="text-center text-white">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">Welcome to Mohali</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Welcome to Gujarat</h2>
             <p className="text-lg md:text-xl">Where tradition meets modernity</p>
           </div>
         </div>
@@ -247,7 +247,7 @@ export default function TourismClientPage({ initialAttractions }: TourismClientP
       <section className="bg-primary/5 rounded-lg p-8 text-center">
         <h2 className="text-2xl font-bold mb-4">Plan Your Visit</h2>
         <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-          Ready to explore Mohali? Contact our tourism office for guided tours, maps, and personalized recommendations.
+          Ready to explore Gujarat? Contact our tourism office for guided tours, maps, and personalized recommendations.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg">Contact Tourism Office</Button>

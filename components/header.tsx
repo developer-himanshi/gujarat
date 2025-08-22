@@ -1,6 +1,5 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import { MapPin, Menu, X } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
@@ -26,7 +25,7 @@ export default function Header() {
           <Link href="/" className="flex items-center space-x-2">
             <MapPin className="h-8 w-8 text-primary" />
             <div>
-              <h1 className="text-2xl font-bold text-primary">Mohali.ai</h1>
+              <h1 className="text-2xl font-bold text-primary">Gujarat.ai</h1>
               <p className="text-sm text-muted-foreground">Your Local Gateway</p>
             </div>
           </Link>
@@ -46,19 +45,13 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="flex items-center space-x-2">
-            <Button variant="outline" size="sm" asChild>
-              <Link href="/auth/signin">Sign In</Link>
-            </Button>
-            <Button size="sm" asChild>
-              <Link href="/list-business">List Business</Link>
-            </Button>
-
-            {/* Mobile Menu Button */}
-            <Button variant="ghost" size="sm" className="lg:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-              {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-            </Button>
-          </div>
+          {/* Mobile Menu Button */}
+          <button
+            className="lg:hidden p-2 rounded-md hover:bg-muted transition"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </button>
         </div>
 
         {/* Mobile Navigation */}

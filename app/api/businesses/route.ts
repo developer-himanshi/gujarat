@@ -1,12 +1,16 @@
+// app/api/businesses/route.ts
+
 export async function GET() {
   const overpassUrl = 'https://overpass-api.de/api/interpreter';
 
+  // Query shops inside Gujarat boundary
   const query = `
-    [out:json];
+    [out:json][timeout:50];
+    area["name"="Gujarat"]["boundary"="administrative"]->.searchArea;
     (
-      node["shop"](30.65,76.65,30.75,76.78);
+      node["shop"](area.searchArea);
     );
-    out body;
+    out body 20;
   `;
 
   try {
@@ -25,30 +29,29 @@ export async function GET() {
     }
 
     const imageList = [
-      "/business-images/mini-market.png",
-      "/business-images/sweet.png",
+      "/business-images/1.avif",
+      "/business-images/33.jpg",
       "/business-images/sweet1.png",
-      "/business-images/1.png",
-      "/business-images/2.png",
-      "/business-images/3.png",
-      "/business-images/4.png",
-      "/business-images/5.png",
-      "/business-images/6.png",
-      "/business-images/7.png"
+      "/business-images/2.avif",
+      "/business-images/3.avif",
+      "/business-images/4.jpg",
+      "/business-images/5.webp",
+      "/business-images/6.jpg",
+     
     ];
 
-    const startLat = 30.7046; // Default location - Mohali center
-    const startLon = 76.7179;
+    const startLat = 23.0225; // Ahmedabad center
+    const startLon = 72.5714;
 
     const businesses = data.elements
       .filter(el => el.tags?.name)
-      .slice(0, 10)
+      .slice(0, 10) // limit to 10 shops
       .map((el, i) => {
         return {
           id: i + 1,
           name: el.tags.name,
           category: el.tags.shop || 'General',
-          address: `${el.tags['addr:street'] || 'Street'}, ${el.tags['addr:city'] || 'Mohali'}`,
+          address: `${el.tags['addr:street'] || 'Street'}, ${el.tags['addr:city'] || 'Gujarat'}`,
           location: {
             lat: el.lat,
             lon: el.lon,
