@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
         This Privacy Policy outlines how MatchBest Software (hereafter referred to as
         "we", "us", "our", or "Gujarat Details") collects, uses, shares, and protects
         personal information of users ("you") who access our platform 
-        <a href="https://Gujarat-ai.vercel.app" className="text-blue-600 underline"> Gujarat-ai.vercel.app</a>, including the website, mobile applications,
+        <a href="https://Gujarat.ai" className="text-blue-600 underline"> Gujarat.ai</a>, including the website, mobile applications,
         and any related services (collectively referred to as the “Platform Gujarat.ai”).
       </p>
       <p>We are committed to respecting your privacy and adhering to applicable data protection laws.</p>
