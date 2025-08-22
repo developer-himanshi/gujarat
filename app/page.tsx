@@ -95,7 +95,7 @@ export default function HomePage() {
                 <CardContent className="p-6 text-center">
                   <Building className="h-12 w-12 text-primary mx-auto mb-4" />
                   <h3 className="font-bold text-lg mb-2">Business</h3>
-                  <p className="text-muted-foreground text-sm">Businesses in Gujrat</p>
+                  <p className="text-muted-foreground text-sm">Businesses in Gujarat</p>
                 </CardContent>
               </Card>
             </Link>
