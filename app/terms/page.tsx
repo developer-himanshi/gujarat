@@ -35,10 +35,7 @@ export default function TermsPage() {
         All content, graphics, and software are owned by MatchBest Software or its licensors. You may not copy or redistribute without permission.
       </p>
 
-      <h2 className="text-2xl font-semibold mb-2">5. Privacy</h2>
-      <p className="mb-4">
-        Your use of the Platform is governed by our <a href="/privacy" className="text-primary underline">Privacy Policy</a>.
-      </p>
+     
 
       <h2 className="text-2xl font-semibold mb-2">6. Limitation of Liability</h2>
       <p className="mb-4">
