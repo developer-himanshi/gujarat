@@ -68,7 +68,7 @@ export default function PrivacyPolicy() {
         <li>Withdraw consent for communications or data processing</li>
         <li>File a complaint if your rights are violated</li>
       </ul>
-      <p>To exercise any of these rights, email us at: <a href="mailto:info@matchbestsoftware.com" className="text-blue-600 underline">info@matchbestsoftware.com</a></p>
+      <p>To exercise any of these rights, email us at: <a href="mailto:contact@matchbestsoftware.com" className="text-blue-600 underline">contact@matchbestsoftware.com</a></p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">Disclosures Required by Law</h2>
       <p>We may disclose your personal data if:</p>
