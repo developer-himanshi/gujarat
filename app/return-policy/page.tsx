@@ -76,7 +76,6 @@ export default function ReturnPolicy() {
             scope, timeline, and deliverables.
           </p>
         </section>
-
         <section>
           <h2 className="text-xl font-semibold mb-2">
             5) Errors, Updates & Availability
