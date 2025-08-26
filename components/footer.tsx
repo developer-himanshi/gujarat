@@ -68,7 +68,9 @@ export default function Footer() {
               <Link href="/terms" className="hover:text-primary">
                 Terms of Service
               </Link>
-         
+          <Link href="/return-policy" className="hover:text-primary">
+                Return Policy
+              </Link>
             </div>
           </div>
         </div>
